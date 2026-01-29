@@ -1,0 +1,22 @@
+package main;
+
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
+
+public class Sprite extends Rectangle{
+
+
+	private final String type;
+
+
+	public Sprite(int x, int y, int w, int h, String type, Color color) {
+		super(w, h, color);
+
+		this.type = type;
+		setX(x);
+		setY(y);
+
+	}
+
+}
+
