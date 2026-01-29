@@ -56,15 +56,24 @@ This introduced me to real-world JavaFX setup, command-line compilation, and deb
 1. Make sure you have Java 21+ installed (e.g., from adoptium.net or oracle.com)
 2. Download and extract OpenJFX SDK 21[](https://gluonhq.com/products/javafx/)
 3. Place all game files in this folder structure:
+   
 	rooftopRenegade/
+
 	├── src/
+
 	│   └── main/
+
 	│       └── *.java
+
 	├── main/                  ← button PNGs
+
 	├── Resources/             ← backgrounds, GIFs, sound, LeaderBoard.txt
+
 	├── bin/                   ← compiled classes (created on compile)
+
 	└── run.bat
-4. Double-click `run.bat` or run from terminal (project root):
+
+5. Double-click `run.bat` or run from terminal (project root):
 ```bash
 java --module-path "C:/path/to/javafx-sdk-21.0.10/lib"  ^   ##Replace the path with your actual OpenJFX lib folder.##
      --add-modules javafx.controls,javafx.fxml,javafx.media,javafx.graphics ^
