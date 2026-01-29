@@ -35,7 +35,7 @@ This was a collaborative high-school culminating project (2020) by four students
 - **Kurtis Quasdorf** — Created all visual assets: player animations (walking/jumping), coin GIF, backgrounds, platforms, button images
 - **Leonard Bairagee & Michael Wieszczek** — Co-leads on programming and project coordination: core game structure, jumping mechanics, collision detection, gravity/anti-gravity logic
 - **Leonard Bairagee** — Additional focus on initialization and spawning of dynamic objects (platforms, coins, scrolling backgrounds)
-- **Michael Wieszczek** — Additional focus on product coordination music integration, overall implementation, and integration
+- **Michael Wieszczek** — Additional focus on product coordination, music integration, overall implementation, and integration
 
 ## Controls
 
