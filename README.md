@@ -39,7 +39,7 @@ This was a collaborative high-school culminating project (2020) by four students
 
 ## Controls
 
-Space / W / Up Arrow — Jump (single tap or double in air)
+Space / Up Arrow — Jump (single tap or hold in air for double jump)
 
 ## Known Limitations
 
