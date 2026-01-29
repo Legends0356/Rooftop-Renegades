@@ -66,10 +66,10 @@ This introduced me to real-world JavaFX setup, command-line compilation, and deb
 	└── run.bat
 4. Double-click `run.bat` or run from terminal (project root):
 ```bash
-java --module-path "C:/path/to/javafx-sdk-21.0.10/lib" ^
+java --module-path "C:/path/to/javafx-sdk-21.0.10/lib" ##Replace the path with your actual OpenJFX lib folder.## ^
      --add-modules javafx.controls,javafx.fxml,javafx.media,javafx.graphics ^
      -cp bin main.MainApplication
-##Replace the path with your actual OpenJFX lib folder.##
+
 
 
 
